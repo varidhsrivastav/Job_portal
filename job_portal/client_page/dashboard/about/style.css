@@ -1,0 +1,206 @@
+/* default */
+:root{
+    --color-primary: #1a9b09;
+    --font-mochiy: 'Mochiy Pop P One', sans-serif;
+    --font-segwick:'Sedgwick Ave', cursive;
+    --font-sanspro: 'Source Sans Pro', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    
+}
+
+.btn-1{
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius:48px ;
+    background-color: var(--color-primary);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.btn-2{
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius:48px ;
+    background-color: var(--color-primary);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.btn-1:hover{
+    background-color: #00bfa6;
+    /* #00bfa6 */
+
+}
+
+
+.btn-2:hover{
+    background-color: #00bfa6;
+    /* #00bfa6 */
+
+}
+
+
+/* header style */
+header.header{
+    width: 100% ;
+    position: fixed;
+    z-index: 999; 
+    background-color: #eeeeee;
+}
+.header nav.navbar{
+    text-align: center;
+    box-shadow: none;
+}
+.header nav.navbar .navbar-brand{
+    font-size: 30px;
+    color: #4900bf;
+    font-weight: 600;
+    font-family: 'Sedgwick Ave', cursive;
+}
+.header nav.navbar .navbar-brand span{
+    margin-left: -80px;
+}
+.header nav.navbar .nav-item{
+    margin: auto 5px;
+}
+.navbar-brand i{
+    color: #00bf6f;
+    font-size: 30px;
+}
+
+.header nav.navbar .nav-link{
+    color: black;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    padding: 10px 20px;
+    transition: 0.5s ease;
+} 
+
+.header nav.navbar .dark-mode-icon::after{
+    content: "Dark mode";
+}
+.header .navbar .nav-link:hover,
+.header .navbar .nav-link:active{
+    color: var(--color-primary);
+
+}
+.header .navbar a .image-logo{
+    border-radius: 100%;
+    width: 35%;
+    overflow: hidden;
+}
+.header .navbar .nav-item a{
+    padding-top: 5px;
+   
+}
+
+
+
+/* about section */
+
+#about-section{
+    width: 100%;
+    padding: 150px 10px 150px 10px;
+    font-family: var(--font-poppins);
+}
+#about-section h1{
+    color: var(--color-primary);
+}
+#about-section .image{
+    border-radius: 50px 50px 50px 50px;
+    overflow: hidden;
+}
+#about-section .image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* address */
+#address{
+    font-family: var(--font-poppins);
+    padding: 100px 0;
+    text-align: center;
+    width: 100%;
+}
+#address .map{
+    width: 100%;
+    border-radius: 10px;
+}
+#address .fab{
+    color: var(--color-primary);
+    font-size: 1vw;
+    padding: 20px 3px
+}
+
+
+/* contact-form */
+
+.contact-form1{
+    background-color: rgba(180, 179, 179, 0.342);
+    padding: 10px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+
+#contact-form{
+    font-family: var(--font-poppins);
+    padding: 100px 0;
+    text-align: center;
+    width: 100%;
+
+}
+#contact-form h1{
+    padding: 0 0 70px 0;
+}
+#contact-form .form-1 .form-detail{
+    width: 100%;
+    padding: 7px 15px;
+} 
+#contact-form .form-1 input{
+    outline: 0;
+    border-radius: 30px;
+    transition: ease-in-out;
+    border: none;
+    padding: 15px 10px;
+}
+
+#contact-form .form-1 textarea{
+    padding: 15px 10px;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: ease-in-out;
+    border: none;
+    
+}
+
+#contact-form .form-1 input:focus{
+    outline: none;
+    border: none;
+}
+#contact-form img{
+    width: 40%;
+    top: 190%;
+    left: 0%;
+    position:absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+.contact{
+    background-color: #02533221;
+}
+/* footer */
+
+.logo{
+    font-size: 30px;
+    color: #c7b1eb;
+    font-weight: 600;
+    font-family: 'Sedgwick Ave', cursive;
+}
